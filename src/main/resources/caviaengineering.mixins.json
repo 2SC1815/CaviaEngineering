@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "si.f5.yagi.caviaengineering.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  
+    "coremods.LevelMixin"
+    
+  ],
+  "client": [
+  
+    "coremods.client.ScreenEffectRendererMixin",
+    "coremods.client.EntityRenderDispatcherMixin",
+    "coremods.client.LevelRendererMixin",
+    "coremods.client.RenderBuffersMixin"
+    
+  ],
+  "minVersion": "0.8"
+}

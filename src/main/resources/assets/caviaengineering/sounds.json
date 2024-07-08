@@ -1,0 +1,50 @@
+{
+  "guineapig_eek": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "caviaengineering:guineapig1"
+      },
+      {
+        "type": "file",
+        "name": "caviaengineering:guineapig2"
+      },
+      {
+        "type": "file",
+        "name": "caviaengineering:guineapig3"
+      }
+    ],
+    "subtitle": "caviaengineering.subtitle.puipui"
+  },
+  
+  "transporter_departure": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "caviaengineering:transporter_departure"
+      }
+    ],
+    "subtitle": "caviaengineering.subtitle.transporter_departure"
+  },
+  
+  "transporter_arrival": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "caviaengineering:transporter_arrival"
+      }
+    ],
+    "subtitle": "caviaengineering.subtitle.transporter_arrival"
+  },
+  
+  "transporter_energize": {
+    "sounds": [
+      {
+        "type": "file",
+        "name": "caviaengineering:energize"
+      }
+    ],
+    "subtitle": "caviaengineering.subtitle.transporter_energize"
+  }
+  
+}

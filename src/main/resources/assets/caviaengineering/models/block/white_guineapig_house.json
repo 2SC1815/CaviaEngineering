@@ -1,0 +1,6 @@
+{
+  "parent": "caviaengineering:block/template_guineapig_house",
+  "textures": {
+    "wool": "minecraft:block/white_wool"
+  }
+}

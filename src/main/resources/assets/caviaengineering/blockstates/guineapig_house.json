@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "caviaengineering:block/guineapig_house"
+    },
+    "facing=north": {
+      "model": "caviaengineering:block/guineapig_house",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "caviaengineering:block/guineapig_house",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "caviaengineering:block/guineapig_house",
+      "y": 180
+    }
+  }
+}

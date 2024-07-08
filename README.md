@@ -1,28 +1,34 @@
+---
+#これはなに？
+---
 
-Installation information
-=======
+思いついたいろんな要素をマインクラフトに追加する、実験的なMODを作っています。
+趣味でやってる遊びの一種なので、メンテナンスを続ける可能性は低いです。
+neoforge 1.21 で開発しています。
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions at [github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+---
+#現状、なにがある？
+---
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+##モルモット
+５種の柄と7つの色の組み合わせで、1050種類のパターンを持つ、かわいいモルモットを追加します。
+リンゴをあげると、一定時間後にウンチをします。使い道はまだないですが。
+金のリンゴで繁殖します。
 
-> **Note**: For Eclipse, use tasks in `Launch Group` instead of ones founds in `Java Application`. A preparation task must run before launching the game. NeoGradle uses launch groups to do these subsequently.
+##転送装置
+スタートレックの転送装置です。レッドストーン入力で上部のエンティティを転送します。
+エフェクトにこだわって作ってありますが、座標の指定機能はまだありません。
+暫定的に、１５ブロック離れたところに転送します。
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+---
+#他に作ってみたいもの
+---
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+##パイプ、電線などの工業要素
+古き良き工業MODを作ってみたい
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+##宇宙探索
+最後のフロンティア
+
+##電子回路
+コンピュータをゼロから作ろう
